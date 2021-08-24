@@ -1,0 +1,32 @@
+body{
+    background-color: #fcebb6;
+    color: #221811; /* ; stand for the end of a statement */
+    font-family:Tahoma, Arial, sans-serif;
+}
+header{
+    background-color: #d2b48c;
+    text-align: center;
+    color: #8c3826;
+}
+h1{
+    line-height:200%;
+}
+h2{
+    color: #8c3826;
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    background-color: #d2b48c;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+}
+#wrapper{
+    margin-right: auto;
+    margin-left: auto; /* will help center the text on the screen*/
+    width: 80%;
+    background-color: #fefaeb;
+}
