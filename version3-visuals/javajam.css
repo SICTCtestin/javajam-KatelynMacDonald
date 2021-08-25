@@ -1,5 +1,8 @@
 body{
-    background-color: #fcebb6;
+    background-image: url("java media/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: #221811; /* ; stand for the end of a statement */
     font-family:Tahoma, Arial, sans-serif;
 }
@@ -7,26 +10,52 @@ header{
     background-color: #d2b48c;
     text-align: center;
     color: #8c3826;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 h1{
-    line-height:200%;
+    font-size: 3em;
 }
 h2{
+    color: #8c3826;
+}
+h3{
+    color: #8c3826;
+}
+h4{
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+}
+dt{
     color: #8c3826;
 }
 nav{
     text-align: center;
     font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav a{
+    text-decoration: none;
 }
 footer{
     background-color: #d2b48c;
     font-size: .60em;
     text-align: center;
     font-style: italic;
+    padding: 1em;
+    border-top: 2px;
+    border-color: #8c3826;
 }
 #wrapper{
     margin-right: auto;
     margin-left: auto; /* will help center the text on the screen*/
-    width: 80%;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px  ;
+
     background-color: #fefaeb;
 }
