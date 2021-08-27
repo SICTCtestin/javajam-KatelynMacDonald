@@ -1,5 +1,5 @@
 body{
-    background-image: url("java media/fadedroad50.jpg");
+    background-image: url("javaMedia/fadedroad50.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -58,4 +58,23 @@ footer{
     box-shadow: 5px 5px  ;
 
     background-color: #fefaeb;
+}
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#homehero{
+    height: 300px;
+    background-size: cover;
+    background-image:url("javaMedia/hero.jpg")
 }
