@@ -8,10 +8,18 @@ body{
 }
 header{
     background-color: #d2b48c;
-    text-align: center;
-    color: #8c3826;
+    background-image: url("javaMedia/coffeelogo.jpg");
+    background-repeat: no-repeat;
+    color: #231814;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 240px;
+
+
+}
+header a:link{
+    color: #231814;
+    
 }
 h1{
     font-size: 3em;
@@ -26,7 +34,12 @@ h4{
     background-color: #d2b48c;
     font-size: 1.2em;
     padding-left: .5em;
-    padding-bottom: .25em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: black;
+    float: left;
+    clear: none;
+
 }
 dt{
     color: #8c3826;
@@ -37,9 +50,29 @@ nav{
     font-size: 1.5em;
     padding-top: 5px;
     padding-bottom: 5px;
+    float: left;
+    width: 200px;
 }
 nav a{
     text-decoration: none;
+}
+nav a:link {
+    color: #fef6c2;
+}
+nav a:visited{
+    color: #d2b48c;
+}
+nav a:hover{
+    color: #cc9933;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+.floatLeft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 footer{
     background-color: #d2b48c;
@@ -57,17 +90,56 @@ footer{
     max-width: 1280px;
     box-shadow: 5px 5px  ;
     box-sizing: border-box;
-    background-color: #fefaeb;
+    background-color: #231814;
+    padding: 0;
 }
 main{
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 2em;
+    padding-top: 0;
+    margin-left: 200px;
     display: block;
+    background-color: #fef6c2;
+    overflow: auto;
+}
+main h2{
+    padding-left: 3em;
+    padding-right: 2em;
+
+}
+main h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h4{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main dl{
+    padding-left: 3em;
+    padding-right: 2em;
 }
 .details{
     padding-left: 20%;
     padding-right: 20%;
+    overflow: auto;
+}
+.onethird{
+    float: left;
+    width: 33%;
 }
 img{
     padding-left: 10px;
