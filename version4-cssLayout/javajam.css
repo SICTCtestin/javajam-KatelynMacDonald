@@ -21,6 +21,12 @@ header a:link{
     color: #231814;
     
 }
+header a:visited{
+    color: #231814;
+}
+header a:hover{
+    color: #fef6c2;
+}
 h1{
     font-size: 3em;
 }
