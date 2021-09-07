@@ -1,0 +1,507 @@
+@media(min-width:1024px){
+    body{
+    background-image: url("javaMedia/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #221811; /* ; stand for the end of a statement */
+    font-family:Tahoma, Arial, sans-serif;
+    }
+    header{
+        background-color: #d2b48c;
+        background-image: url("javaMedia/coffeelogo.jpg");
+        background-repeat: no-repeat;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 240px;
+
+
+    }
+    header a:link{
+        color: #231814;
+        
+    }
+    header a:visited{
+        color: #231814;
+    }
+    header a:hover{
+        color: #fef6c2;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        color: #8c3826;
+    }
+    h3{
+        color: #8c3826;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
+        /*float: left;
+        clear: none;*/
+
+    }
+    dt{
+        color: #8c3826;
+    }
+    nav{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 200px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {
+        color: #fef6c2;
+    }
+    nav a:visited{
+        color: #d2b48c;
+    }
+    nav a:hover{
+        color: #cc9933;
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    .floatLeft{
+        float: left;
+        padding-right: 2em;
+        padding-bottom: 2em;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: 2px;
+        border-color: #8c3826;
+    }
+    #wrapper{
+        margin-right: auto;
+        margin-left: auto; /* will help center the text on the screen*/
+        min-width: 900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px  ;
+        box-sizing: border-box;
+        background-color: #231814;
+        padding: 0;
+    }
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        margin-left: 200px;
+        display: block;
+        background-color: #fef6c2;
+        overflow: auto;
+    }
+    main h2{
+        padding-left: 3em;
+        padding-right: 2em;
+
+    }
+    main h3{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main h4{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main p{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main div{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main dl{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+    .onethird{
+        float: left;
+        width: 33%;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/hero.jpg")
+    }
+    #homemugs{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heromugs.jpg")
+    }
+    #homeguitar{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heroguitar.jpg")
+    }
+}
+@media(min-width:600px){
+    body{
+    background-image: url("javaMedia/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #221811; /* ; stand for the end of a statement */
+    font-family:Tahoma, Arial, sans-serif;
+    }
+    header{
+        padding-left: 0;
+        text-align: center;
+
+
+    }
+    header a:link{
+        color: #231814;
+        
+    }
+    header a:visited{
+        color: #231814;
+    }
+    header a:hover{
+        color: #fef6c2;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        color: #8c3826;
+    }
+    h3{
+        color: #8c3826;
+    }
+    h4{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+    dt{
+        color: #8c3826;
+    }
+    nav{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 200px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {
+        color: #fef6c2;
+    }
+    nav a:visited{
+        color: #d2b48c;
+    }
+    nav a:hover{
+        color: #cc9933;
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    nav li{
+        border-bottom: none;
+    }
+    .floatLeft{
+        float: left;
+        padding-right: 2em;
+        padding-bottom: 2em;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: 2px;
+        border-color: #8c3826;
+    }
+    #wrapper{
+        margin-right: auto;
+        margin-left: auto; /* will help center the text on the screen*/
+        min-width: 900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px  ;
+        box-sizing: border-box;
+        background-color: #231814;
+        padding: 0;
+    }
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        margin-left: 200px;
+        display: block;
+        background-color: #fef6c2;
+        overflow: auto;
+    }
+    main h2{
+        padding-left: 3em;
+        padding-right: 2em;
+
+    }
+    main h3{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main h4{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main p{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main div{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    main dl{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    .details{
+        flex-direction: row;
+    }
+    .onethird{
+        float: left;
+        width: 33%;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 50vh;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/hero.jpg")
+    }
+    #homemugs{
+        height: 50vh;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heromugs.jpg")
+    }
+    #homeguitar{
+        height: 50vh;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/heroguitar.jpg")
+    }
+    #flow{
+        flex-direction: row;
+        
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+
+}
+@media(max-width:600px){
+    body{
+    margin: 0;
+    background-color: #d2b48c;
+    color: #221811; /* ; stand for the end of a statement */
+    font-family:Tahoma, Arial, sans-serif;
+    }
+    header{
+        background-color: #d2b48c;
+        background-image: url("javaMedia/cup.jpg");
+        background-repeat: no-repeat;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 105px;
+        height: 128px;
+
+
+    }
+    header a:link{
+        color: #231814;
+        
+    }
+    header a:visited{
+        color: #231814;
+    }
+    header a:hover{
+        color: #fef6c2;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        color: #8c3826;
+    }
+    h3{
+        color: #8c3826;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
+        /*float: left;
+        clear: none;*/
+
+    }
+    dt{
+        color: #8c3826;
+    }
+    nav{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {
+        color: #fef6c2;
+    }
+    nav a:visited{
+        color: #d2b48c;
+    }
+    nav a:hover{
+        color: #cc9933;
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+        flex-direction: column;
+        margin: 0;
+        font-size: 1.25em;
+    }
+    nav li{
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
+        border-bottom: 1px;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: 2px;
+        border-color: #8c3826;
+    }
+    #wrapper{
+        box-sizing: border-box;
+        background-color: #231814;
+        padding: 0;
+    }
+    main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 2em;
+        padding-top: 0;
+        display: block;
+        background-color: #fef6c2;
+    }
+    main h2{
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+    main h3{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main h4{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main div{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    main ul{
+        padding-left: 2em;
+    }
+    main dl{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/road.jpg")
+    }
+    #homemugs{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/threemugs.jpg")
+    }
+    #homeguitar{
+        height: 300px;
+        background-size: 100% 100%;
+        background-image:url("javaMedia/guitar.jpg")
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+}

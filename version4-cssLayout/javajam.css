@@ -43,8 +43,8 @@ h4{
     padding-bottom: 0;
     text-transform: uppercase;
     border-bottom: black;
-    float: left;
-    clear: none;
+    /*float: left;
+    clear: none;*/
 
 }
 dt{
