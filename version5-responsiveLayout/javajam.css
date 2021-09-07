@@ -180,8 +180,6 @@
     header{
         padding-left: 0;
         text-align: center;
-
-
     }
     header a:link{
         color: #231814;
@@ -232,8 +230,6 @@
         color: #cc9933;
     }
     nav ul{
-        padding: 0;
-        list-style-type: none;
         flex-wrap: nowrap;
         justify-content: space-around;
     }
@@ -316,17 +312,51 @@
     }
     #homehero{
         height: 50vh;
-        background-size: 100% 100%;
         background-image:url("javaMedia/hero.jpg")
     }
     #homemugs{
-        height: 50vh;
-        background-size: 100% 100%;
         background-image:url("javaMedia/heromugs.jpg")
     }
     #homeguitar{
+        background-image:url("javaMedia/heroguitar.jpg")
+    }
+    #flow{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+
+}
+/*
+@media(min-width:600px){
+    header{
+        padding-left: 0;
+        text-align: center;
+    }
+    h1{
+        font-size: 3em;
+    }
+    nav ul{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    nav li{
+        border-bottom: none;
+    }
+    #homehero{
         height: 50vh;
-        background-size: 100% 100%;
+        background-image:url("javaMedia/hero.jpg")
+    }
+    #homemugs{
+        background-image:url("javaMedia/heromugs.jpg")
+    }
+    #homeguitar{
         background-image:url("javaMedia/heroguitar.jpg")
     }
     #flow{
@@ -339,8 +369,16 @@
     #desktop{
         display: none;
     }
+    .details{
+        flex-direction: row;
+    }
+    h4{
+        margin-left: 10%;
+        margin-right: 10%;
 
-}
+    }
+
+}*/
 @media(max-width:600px){
     body{
     margin: 0;
