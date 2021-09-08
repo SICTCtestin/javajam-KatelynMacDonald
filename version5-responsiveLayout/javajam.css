@@ -178,8 +178,13 @@
     font-family:Tahoma, Arial, sans-serif;
     }
     header{
+        background-color: #d2b48c;
+        background-image: url("javaMedia/coffeelogo.jpg");
+        background-repeat: no-repeat;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
         padding-left: 0;
-        text-align: center;
     }
     header a:link{
         color: #231814;
@@ -201,6 +206,12 @@
         color: #8c3826;
     }
     h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
         margin-left: 10%;
         margin-right: 10%;
 
@@ -214,7 +225,7 @@
         font-size: 1.5em;
         padding-top: 5px;
         padding-bottom: 5px;
-        float: left;
+        /* float: left; */
         width: 200px;
     }
     nav a{
@@ -230,6 +241,7 @@
         color: #cc9933;
     }
     nav ul{
+        display:flex;
         flex-wrap: nowrap;
         justify-content: space-around;
     }
@@ -300,6 +312,9 @@
         padding-right: 2em;
     }
     .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
         flex-direction: row;
     }
     .onethird{
@@ -312,12 +327,16 @@
     }
     #homehero{
         height: 50vh;
+        background-size: 100% 100%;
         background-image:url("javaMedia/hero.jpg")
+        
     }
     #homemugs{
+        background-size: 100% 100%;
         background-image:url("javaMedia/heromugs.jpg")
     }
     #homeguitar{
+        background-size: 100% 100%;
         background-image:url("javaMedia/heroguitar.jpg")
     }
     #flow{
@@ -460,7 +479,8 @@
         padding-left: 1em;
         padding-right: 1em;
         width: 100%;
-        border-bottom: 1px;
+        border-bottom:solid 1px;
+        border-color: #D2B48C;
     }
     footer{
         background-color: #d2b48c;
